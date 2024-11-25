@@ -1,3 +1,4 @@
+-- Exemplos com laços
 /*
 CREATE TABLE teste_loop(id NUMBER(10), nome VARCHAR2(10));
 

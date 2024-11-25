@@ -1,4 +1,4 @@
---Exemplo de PACKAGE
+--Exemplos de PACKAGE
 /*
 CREATE OR REPLACE PACKAGE exemplo_pack
 IS

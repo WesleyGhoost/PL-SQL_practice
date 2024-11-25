@@ -1,3 +1,4 @@
+-- Exemplos de decisão
 /* 
 DECLARE
   a NUMBER;
