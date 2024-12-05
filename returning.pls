@@ -1,4 +1,5 @@
--- Exemplo com RETURNING
+--Exemplo com RETURNING--
+
 CREATE TABLE pessoa (codigo NUMBER(5), nome VARCHAR2(50), status CHAR(1));
 
 INSERT INTO pessoa VALUES (1, 'Ricardo', 'A');

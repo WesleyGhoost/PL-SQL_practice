@@ -1,4 +1,5 @@
--- Exemplo com DML
+--exemplo com DML--
+
 CREATE TABLE filmes (
     filme_id NUMBER(10) PRIMARY KEY,
     titulo VARCHAR2(100),

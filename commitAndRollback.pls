@@ -1,4 +1,5 @@
--- Exemplo com commit e rollback
+--Exemplo com COMMIT e ROLLBACK--
+
 CREATE TABLE tab1 (a1 NUMBER, a2 NUMBER);
 CREATE TABLE tab2 (b1 NUMBER, b2 NUMBER);
 

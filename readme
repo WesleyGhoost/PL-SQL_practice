@@ -1,0 +1,17 @@
+***ALGUMAS INFORMAÇÕES IMPORTANTES CASO VOCÊ QUEIRA USAR ESSE CÓDIGO COMO REFERÊNCIA PARA ESTUDO
+OU OUTROS AFINS...***
+
+1 -- Instale duas extensões importantíssimas caso vc queira usar o PL/SQL de forma adequada no
+VS Code.
+
+  1.a -- Language PL/SQL: Vai oferecer o suporte necessário durante a sua codificação da linguagem,
+  fornecendo o ecossistema de comandos da mesma.
+  
+  1.b -- Oracle Developer Tools for VS Code: Garante a sincronização do seu Banco de Dados Oracle
+  com o VS Code, fazendo com que você consiga manipular seu banco de dados a vontade.
+
+2 -- Em alguns arquivos é utilizada uma tabela chamada 'EMP', essa tabela não foi criada por mim, ela
+é uma tabela que já vem como um exemplo após você instalar o SQL da Oracle. Para conseguir acessá-la,
+deve-se acessar o banco de dados com o user: 'scott' e a password: 'tiger', assim você consegue acesso
+a tabela 'EMP' (employeer) e 'DEPT' (department), elas são tabelas cheias de informação para você já
+ir praticando sem precisar criar tabelas e ainda precisar armazenar diversas informações nelas.

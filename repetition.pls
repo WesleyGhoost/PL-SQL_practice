@@ -1,4 +1,6 @@
--- Exemplos com laços
+--Exemplos com laços--
+
+-- Exemplo com LOOP
 /*
 CREATE TABLE teste_loop(id NUMBER(10), nome VARCHAR2(10));
 
@@ -16,6 +18,9 @@ END;
 /
 */
 
+
+
+-- Exemplo com FOR
 /*
 CREATE TABLE item(ordId NUMBER(5), itemId NUMBER);
 
@@ -30,6 +35,9 @@ END;
 / 
 */
 
+
+
+-- Exemplo com WHILE
 ACCEPT p_voltas PROMPT 'Digite o número de voltas no laço: ';
 
 DECLARE

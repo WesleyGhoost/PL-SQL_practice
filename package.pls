@@ -1,4 +1,5 @@
---Exemplos de PACKAGE
+--Exemplos de PACKAGE--
+
 /*
 CREATE OR REPLACE PACKAGE exemplo_pack
 IS
@@ -39,6 +40,8 @@ END exemplo_pack;
 /
 */
 
+
+
 --PACKAGE com variável no corpo
 /*
 CREATE OR REPLACE PACKAGE pkg_string_func AS
@@ -68,6 +71,8 @@ BEGIN
 END;
 /
 */
+
+
 
 --PACKAGE com EXCEPTION
 CREATE OR REPLACE PACKAGE pkg_dividir AS

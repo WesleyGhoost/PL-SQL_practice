@@ -1,5 +1,6 @@
--- Exemplos com TYPE
--- a tabela filmes utilizada foi criada no arquivo DMLPractice.pls
+--Exemplos com TYPE--
+
+-- * A tabela filmes utilizada foi criada no arquivo DMLPractice.pls *
 /*
 CREATE OR REPLACE PACKAGE pkg_filmes AS
   TYPE tipo_reg_filmes IS RECORD (
@@ -68,8 +69,7 @@ END;
 */
 
 
--- A tabela dept faz parte do banco do usuario 'scott', banco esse que já vem como exemplo 
--- após instalar o seu SQL Oracle
+
 CREATE TABLE novo_dept AS (SELECT * FROM dept WHERE deptno = 0);
 
 DECLARE

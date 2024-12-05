@@ -1,6 +1,6 @@
 --Exemplos com TRIGGER--
--- Ps: A tabela dept faz parte do banco do usuario 'scott', banco esse que já vem como exemplo após instalar o seu SQL Oracle * --
 
+-- Exemplo com BEFORE
 /*
 CREATE OR REPLACE TRIGGER restringe_salario
     BEFORE INSERT OR UPDATE OF sal ON emp
@@ -35,6 +35,8 @@ SELECT TO_CHAR(SYSDATE, 'dd/mm/yyyy-hh24:mi:ss') FROM DUAL;
 */
 
 
+
+-- Exemplo com AFTER
 /*
 CREATE TABLE log_event (
     evento VARCHAR2(100)
@@ -83,6 +85,8 @@ select username, TO_CHAR(data, 'dd/mm/yyyy-hh:mi:ss'), antigo_nome, novo_nome, a
 */
 
 
+
+-- Exemplo com RENAME e SCHEMA
 CREATE TABLE empregado as (SELECT * from scott.emp);
 
 CREATE OR REPLACE TRIGGER vigia

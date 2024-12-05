@@ -1,5 +1,4 @@
 --Exemplos com EXCEPTION--
--- Ps: A tabela dept faz parte do banco do usuario 'scott', banco esse que já vem como exemplo após instalar o seu SQL Oracle * --
 
 -- Exemplo com tratamento NO_DATA_FOUND E TOO_MANY_ROWS;
 /*

@@ -1,4 +1,6 @@
--- Exemplos de decisão
+--Exemplos de decisão--
+
+-- Exemplo com IFS
 /* 
 DECLARE
   a NUMBER;
@@ -18,6 +20,9 @@ END;
 / 
 */
 
+
+
+-- Exemplo com CASE
 /*
 DECLARE
   a NUMBER;

@@ -1,4 +1,5 @@
---Exemplo de FUNCTION
+--Exemplo de FUNCTION--
+
 CREATE OR REPLACE FUNCTION descobrir_salario (p_id IN emp.empno%type)
 RETURN NUMBER
 IS

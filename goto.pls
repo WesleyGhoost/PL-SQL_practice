@@ -1,4 +1,5 @@
--- Exemplo de GOTO
+--Exemplo de GOTO--
+
 DECLARE
   fatorial NUMBER := 1;
   n NUMBER;

@@ -1,4 +1,5 @@
---Exemplo de Recursão 
+--Exemplo de Recursão--
+ 
 CREATE OR REPLACE FUNCTION calcular_fatorial(n IN NUMBER)
 RETURN NUMBER
 IS
